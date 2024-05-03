@@ -1,6 +1,6 @@
 # Melp Backend
 
-Melp is a project about restaurant mangament.
+Melp is a project about restaurant managment.
 
 ## Installation
 Must have docker previously installed
