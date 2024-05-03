@@ -19,7 +19,7 @@ or if you have Node.js v20, just
     Using PostgreSQL 16 hosted on AWS RDS
 
 ## Demo
-- [API URL](https://melp-back-350637d82aa7.herokuapp.com/)
+- [Api Url](https://melp-back-350637d82aa7.herokuapp.com/)
 - [Postman Collection](https://www.postman.com/bluoley/workspace/test/collection/29465272-68b26983-6e1e-456e-b88d-ce50549f66d2?action=share&creator=29465272)
 
 # Documentation
@@ -35,7 +35,7 @@ or if you have Node.js v20, just
     }
 
 ## Create
-    POST - /restaurant
+    POST - /api/restaurant
     
     Body {
         csvFile: File
@@ -74,7 +74,7 @@ or if you have Node.js v20, just
     }
 
 ## GetAll
-    GET - /restaurant?limit=10&offset=0
+    GET - /api/restaurant?limit=10&offset=0
 
     Response {
         [
@@ -110,7 +110,7 @@ or if you have Node.js v20, just
 
 ## GetById
 
-    GET - /restaurant/id/c0ffd058-e773-47f1-974b-42d41cb555bf
+    GET - /api/restaurant/id/c0ffd058-e773-47f1-974b-42d41cb555bf
 
     Response {
         {
@@ -130,7 +130,7 @@ or if you have Node.js v20, just
 
 ## Update
 
-    PUT - /restaurant/c0ffd058-e773-47f1-974b-42d41cb555bf
+    PUT - /api/restaurant/c0ffd058-e773-47f1-974b-42d41cb555bf
 
     Body {
         rating: 1
@@ -144,7 +144,7 @@ or if you have Node.js v20, just
 
 ## Delete
 
-    DELETE - /restaurant/c0ffd058-e773-47f1-974b-42d41cb555bf
+    DELETE - /api/restaurant/c0ffd058-e773-47f1-974b-42d41cb555bf
 
     Response {
         true
