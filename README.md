@@ -10,6 +10,7 @@ Must have docker previously installed
 
 or if you have Node.js v20, just
 
+    npm install
     npx ts-node index.ts
 
 ## Database
