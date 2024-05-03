@@ -12,10 +12,12 @@ or if you have Node.js v20, just
 
     npx ts-node index.ts
 
+## Database
+    Using PostgreSQL 16 hosted on AWS RDS
 
 ## Demo
-[API URL](https://melp-back-350637d82aa7.herokuapp.com/)
-[Postman Collection](https://www.postman.com/bluoley/workspace/test/collection/29465272-68b26983-6e1e-456e-b88d-ce50549f66d2?action=share&creator=29465272)
+- [API URL](https://melp-back-350637d82aa7.herokuapp.com/)
+- [Postman Collection](https://www.postman.com/bluoley/workspace/test/collection/29465272-68b26983-6e1e-456e-b88d-ce50549f66d2?action=share&creator=29465272)
 
 # Documentation
 
