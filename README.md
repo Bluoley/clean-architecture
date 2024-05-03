@@ -26,7 +26,7 @@ or if you have Node.js v20, just
 
 ## Statistics
 
-    GET - /restaurant/statistics?latitude=19.442246&longitude=-99.128660&radius=200
+    GET - /api/restaurant/statistics?latitude=19.442246&longitude=-99.128660&radius=200
 
     Response {
         "avg": "1.00000000000000000000",
